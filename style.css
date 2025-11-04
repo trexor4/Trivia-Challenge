@@ -1,0 +1,87 @@
+/* --- General Page Layout --- */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f9;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+}
+
+/* --- Headings & Text --- */
+h1 {
+  color: #2a2a72;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+/* --- Button --- */
+button {
+  background-color: #2a2a72;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #1c1c56;
+}
+
+button:focus {
+  outline: 3px solid #ffbf00; /* strong visual indicator */
+  outline-offset: 2px;
+}
+
+/* --- Question Area --- */
+#question-area {
+  margin-top: 1.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+/* --- Answer Buttons --- */
+#answers button {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  background-color: #e7e7ff;
+  color: #222;
+}
+
+#answers button:hover {
+  background-color: #d3d3f9;
+}
+
+/* --- Feedback & Score --- */
+#feedback {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+#score {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #2a2a72;
+}
