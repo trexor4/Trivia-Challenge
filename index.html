@@ -9,18 +9,22 @@
 
   <body>
     <main>
-      <h1>Trivia Challenge</h1>
+    <h1>Trivia Challenge</h1>
 
-      <button id="get-question">Get Question</button>
+    <button id="get-question">Get Question</button>
 
-      <div id="question-area" class="hidden">
-        <p id="question-text"></p>
-        <div id="answers"></div>
+    <div id="question-area" class="hidden">
+      <p id="question-text"></p>
+      <div id="answers"></div>
+      <div class="nav-buttons">
+        <button id="prev-question" class="hidden">⬅ Previous Question</button>
+        <button id="next-question" class="hidden">Next Question ➡</button>
       </div>
+    </div>
 
-      <p id="feedback"></p>
-      <p id="score">Score: 0</p>
-    </main>
+  <p id="feedback"></p>
+  <p id="score">Score: 0</p>
+</main>
 
     <script src="script.js"></script>
   </body>
